@@ -18,9 +18,9 @@ const NearbyCard = () => {
                 dragConstraints={{ left: -600, right: 0 }}
             >
                 {cards.map((item, index) => (
-                    <div>
+                    <div key={index}>
 
-                        <div key={index} className="min-w-[250px] relative">
+                        <div className="min-w-[250px] relative">
 
                             <div className='flex items-center gap-1 absolute bottom-2 left-2 bg-white/80 px-2 py-1 rounded-lg'>
                                 <img src="/location.svg" alt="location" className="w-4 h-4" />
@@ -41,7 +41,7 @@ const NearbyCard = () => {
                                 className="absolute top-2 right-2 p-2 bg-[#BE8A60] rounded-full shadow-md"
                             />
                         </div>
-                        <div key={index} className='ml-5'>
+                        <div className='ml-5'>
                             <div className='flex gap-[44px]'>
                                 <h1 className='text-xl text-[#252627]'>Nur Cafe</h1>
                                 <p className='text-[#252627]'>1.26km</p>
