@@ -9,7 +9,7 @@ export default function AuthInit() {
 
   useEffect(() => {
     dispatch(fetchMe())
-  }, [])
+  }, [dispatch])
 
   return null
 }
