@@ -15,7 +15,7 @@ const SpecialCard = () => {
                     <div key={index} className='flex mb-[11px] gap-5 bg-[#FFFFFF] shadow-xl w-full rounded-[11px]'>
                         <img src="/Rectangle 60.png" alt="coffe" />
                         <div className='flex flex-col'>
-                            <div className='flex gap-15 items-center'>
+                            <div className='flex gap-18 items-center'>
                                 <h1 className='text-xl font-medium mt-2 w-fit'>Тяжелый Рок Кофе</h1>
                                 <img className='bg-[#BE8A60] mt-2 rounded-full shadow-md p-2' src="/favorite.svg" alt="favorite" />
                             </div>

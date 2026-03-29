@@ -10,7 +10,7 @@ const SearchInput = () => {
     }
 
     return (
-        <div className='flex items-center justify-around max-w-md mx-auto'>
+        <div className='flex items-center justify-around'>
             <div className='flex gap-[5px] bg-[#EDEDED] rounded-[10px] outline-none px-3 py-3 w-[325px] h-[50px]'>
                 <img src="/search-normal.svg" alt="" />
                 <input

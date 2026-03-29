@@ -1,0 +1,22 @@
+.login-text {
+    font-size: 30px;
+    font-weight: 800;
+    color: #BE8A60;
+}
+
+.login-input {
+    width: 100%;
+    font-size: 22px;
+    border-bottom: 2px solid #BE8A60;
+    outline: none;
+    padding: 4px 0 6px 0;
+}
+
+.login-button {
+    background-color: #BE8A60;
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+}

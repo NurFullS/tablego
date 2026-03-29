@@ -2,10 +2,15 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import './NearbyCard.css'
+import { useRouter } from 'next/navigation'
 
 const cards = [1, 2, 3, 4]
 
 const NearbyCard = () => {
+
+    const router = useRouter()
+    const id = 1
+
     return (
         <div className="overflow-hidden ">
             <div className='flex justify-between gap-4 px-4 mt-3'>
@@ -20,7 +25,7 @@ const NearbyCard = () => {
                 {cards.map((item, index) => (
                     <div key={index}>
 
-                        <div className="min-w-[250px] relative">
+                        <div onClick={() => router.push(`/cafes/${id}`)} className="min-w-[250px] relative">
 
                             <div className='flex items-center gap-1 absolute bottom-2 left-2 bg-white/80 px-2 py-1 rounded-lg'>
                                 <img src="/location.svg" alt="location" className="w-4 h-4" />

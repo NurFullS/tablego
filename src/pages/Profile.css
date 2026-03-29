@@ -1,0 +1,27 @@
+.profile-user {
+    font-size: 36px;
+    font-weight: 800;
+    color: #FFFFFF;
+    background-color: #BE8A60;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #BE8A60;
+    outline: none;
+    font-size: 22px;
+}
+
+footer {
+    position: static;
+}

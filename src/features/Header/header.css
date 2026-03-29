@@ -2,4 +2,20 @@
     color: #BE8A60;
     font-weight: semi-bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+}
+
+.header-user {
+    font-size: 20px;
+    font-weight: 800;
+    color: #FFFFFF;
+    background-color: #BE8A60;
+
+    display: flex;              /* 👈 главное */
+    align-items: center;        /* по вертикали */
+    justify-content: center;    /* по горизонтали */
+
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
 }
