@@ -1,3 +1,5 @@
+'use client'
+
 import Category from '@/features/Category/Category'
 import Footer from '@/features/footer/Footer'
 import Header from '@/features/Header/Header'
